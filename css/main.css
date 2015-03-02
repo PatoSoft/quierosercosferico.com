@@ -1,0 +1,112 @@
+.blueBg {
+  background-color: rgb(51,102,204);
+}
+
+.redBg {
+  background-color: rgb(247,102,102);
+}
+
+.greenBg {
+  background-color: rgb(83,206,161);
+}
+
+.blackBg {
+  background-color: rgb(29,29,27);
+}
+
+.lighterBlackBg {
+	  background-color: rgba(29,29,27,0.2);
+}
+
+.darkGrayBg {
+  background-color: rgb(60,60,59);
+}
+
+.grayBg {
+  background-color: rgb(237,237,237);
+}
+
+.pattern {
+	background-image: url("/img/pattern.gif");
+}
+
+
+
+.header {
+	padding-top: 100px;
+}
+
+.header__text {
+	font-family: 
+}
+
+.colorines {
+	color: white;
+	height: 200px;
+}
+
+.colorin {
+	height: 100%;
+}
+
+.desayuno {
+	height: 100%;
+}
+
+.desayuno__img {
+	height: 100%;
+}
+
+.tarifas {
+
+}
+
+.tarifas__img {
+		width: 480px;
+}
+
+.like {
+	width: 560px;
+  background-color: white;
+  padding: 60px;
+  margin: 60px calc(50% - 280px);
+}
+
+.heart-btn {
+	width: 80px;
+	height: 80px;
+	border-radius: 50%;
+}
+
+.heart {
+	padding: 27px 8px;
+}
+
+.preFooter {
+		height: 100px;
+		color: white;
+}
+
+.footer {
+	height: 60px;
+}
+
+.footer__text {
+	line-height: 60px;
+}
+
+.cartel {
+	height: 100%;
+}
+
+.caret {
+	display: block;
+}
+
+#dropdownMenu1 {
+	position: absolute;
+	top: 0;
+	right: 100px;
+	background-color: rgba(29,29,27,0.2);
+}
+
