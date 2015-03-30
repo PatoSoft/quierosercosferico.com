@@ -33,20 +33,73 @@
 
 
 .header {
-	padding-top: 100px;
+	padding-top: 120px;
+  padding-bottom: 60px;
 }
 
 .header__text {
-	font-family: 
+	font-family: "oswald-bold", sans-serif;
+  font-size: 86px;
+  text-align: center;
+}
+
+.header__text__subtitle {
+  font-family: "raleway-light", sans-serif;
+  font-size: 20px;
+  text-align: center;
+  color: gray;
 }
 
 .colorines {
 	color: white;
-	height: 200px;
+	height: 350px;
 }
 
 .colorin {
+  position: relative;
 	height: 100%;
+}
+
+.colorin__texto {
+  padding-top: 90px;
+  padding-left: 45px;
+  padding-right: 45px;
+  position: absolute;
+}
+
+.colorin__texto__title {
+  position: absolute;
+  top: 45px;
+  font-family: "oswald-bold", sans-serif;
+  font-size: 16px;
+}
+
+.colorin__texto__body {
+  font-family: "raleway-light", sans-serif;
+  font-size: 16px;
+}
+
+.colorin__texto__body-bold {
+  font-family: "raleway-bold", sans-serif;
+  font-size: 16px;
+}
+
+
+.colorin__btn {
+  position: absolute;
+  top: 240px;
+  width: 170px;
+  left: calc(50% - 85px); 
+  text-decoration: none;
+  text-align: center;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  color: white;
+  border: 1px solid white;
+}
+
+.colorin__btn:hover {
+  text-decoration: none;
 }
 
 .desayuno {
