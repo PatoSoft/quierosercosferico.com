@@ -89,7 +89,7 @@
   position: absolute;
   top: 240px;
   width: 170px;
-  left: calc(50% - 85px); 
+  left: 110px; 
   text-decoration: none;
   text-align: center;
   padding-top: 15px;
@@ -104,28 +104,89 @@
 
 .desayuno {
 	height: 100%;
+  padding-top: 80px;
+  padding-bottom: 80px;
 }
 
 .desayuno__img {
-	height: 100%;
+  padding-left: 80px;
+  padding-right: 40px;
+  height: 290px;
+}
+
+.desayuno__text {
+  padding-left: 40px;
+  padding-right: 80px;
+}
+
+.desayuno__text__title {
+  font-family: "raleway-bold", sans-serif;
+  font-size: 50px;
+}
+
+.desayuno__text__body {
+  margin-top: 27px;
+  font-family: "raleway-light", sans-serif;
+  font-size: 24px;
+  color: gray;
+}
+
+.desayuno__text__body-link {
+  font-family: "raleway-bold", sans-serif;
+  font-size: 24px;
+  text-decoration: none;
+}
+
+.desayuno__text__body-link:hover,
+.desayuno__text__body-link:active,
+.desayuno__text__body-link:focus, {
+    text-decoration: none;
+    color: rgb(51,102,204);
 }
 
 .tarifas {
 
 }
 
-.tarifas__img {
-		width: 480px;
+.tarifas__title {
+  width: 210px;
+  margin-top: 90px;
+  margin-bottom: 45px;
+  margin-left: calc(50% - 105px); 
+  font-size: 20px;
+  text-align: center;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  color: white;
+  border: 1px solid white;
+}
+
+.tarifas__content {
+  margin-bottom: 90px;
 }
 
 .like {
-	width: 560px;
+	width: 60%;
   background-color: white;
-  padding: 60px;
-  margin: 60px calc(50% - 280px);
+  padding: 30px 90px;
+  margin: 5% 20%;
 }
 
+.like__text {
+  font-family: "raleway-light", sans-serif;
+  font-size: 24px;
+  text-align: center;
+  color: gray;
+}
+
+.like__author {
+  margin-top: 18px;
+  text-align: right;
+}
+
+
 .heart-btn {
+  margin-top: 18px;
 	width: 80px;
 	height: 80px;
 	border-radius: 50%;
