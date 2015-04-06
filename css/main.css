@@ -475,6 +475,14 @@ footer{
 .footer__text {
   line-height: 45px;
   color: grey;
+    font-size: 14px;
+}
+
+.footer__text__bold {
+    font-size: 14px;
+    font-family: "raleway-bold", sans-serif;
+  color: white;
+
 }
 
 .footer__logos {
