@@ -37,7 +37,7 @@
   padding-bottom: 60px;
 }
 
-.header__text {
+.header__text__title {
 	font-family: "oswald-bold", sans-serif;
   font-size: 86px;
   text-align: center;
@@ -112,11 +112,13 @@
   padding-left: 80px;
   padding-right: 40px;
   height: 290px;
+  display: inline-block;
 }
 
 .desayuno__text {
   padding-left: 40px;
   padding-right: 80px;
+  display: inline-block;
 }
 
 .desayuno__text__title {
@@ -144,9 +146,6 @@
     color: rgb(51,102,204);
 }
 
-.tarifas {
-
-}
 
 .tarifas__title {
   width: 210px;
@@ -225,43 +224,30 @@
 }
 
 
-.seccionthree{
+.seccionthree {
   width: 100%;
-  height: 1080px;
-  position: relative;
-  top: 50%;
-  left: 50%;
-  -webkit-transform: translate(-50%);
+  height: 100%;
   background-color: rgb(51,102,204);
 }
 
-.seccionthree_left{
-  width: 50%;
+.seccionthree_left,
+.seccionthree_right {
   height: 1080px;
-  position: absolute;
   background-color: rgb(51,102,204);
+  display: block;
 
-}
-.seccionthree_right{
-  width: 50%;
-  height: 1080px;
-  background-color: rgb(51,102,204);
-  position:absolute;
-  right: 0px;
-  
 }
 
 /*card tarifas pequeño*/
 
-.seccionthree_card{
+.seccionthree_card {
   display: table;
   position: absolute;
   top: 140px;
-  left: 50%;
-  -webkit-transform: translate(-50%);
-
+  left: 0;
+  padding: 0 80px 0 40px;
 }
-.seccionthree_card_title{
+.seccionthree_card_title {
   display: table-cell;
   width: 100px;
   font-family: "oswald", sans-serif;
@@ -274,16 +260,16 @@
   position: relative;
 
 }
-.seccionthree_card_text{
+.seccionthree_card_text {
   display: table-cell;
   font-family: "raleway-light", sans-serif;
   font-size: 12px;
-  width: 150px;
+  width: 60%;
   vertical-align: middle;
   margin-right: 50px;
   background: white;
   right: 20px;
-  padding: 20px 20px 20px 25px;
+  padding: 10px 25px;
   
   p {
     margin: 0;
@@ -291,7 +277,7 @@
   
 }
 
-.rombo{
+.rombo {
   background-color: rgb(83,206,161);
   width: 15px;
   height: 15px;
@@ -305,27 +291,25 @@
 }
 
 
-.seccionthree_boton{
+.tarifas__title {
   border-radius: 3px;
   border: 1px solid white;
   width: 200px;
   height: 60px;
-  top: 40px;
+  margin-top: 40px;
   position: absolute;
   font-family: "oswald-bold", sans-serif;
   font-size: 14px;
   color: white;
   text-align: center;
-  line-height: 60px;
-  right: -100px;
+  line-height: 30px;
   z-index: 1;
-
 }
 
 
 
 /*cartel tarifas*/
-.seccionthree_price_table{
+.seccionthree_price_table {
   display:table-cell;
   position: relative;
   color: white;
@@ -356,46 +340,41 @@
   p {
     margin: 0;
   }
-
 }
 
-.seccionthree_price_text{
+.seccionthree_price_text {
   color: white;
   font-family: "raleway-light", sans-serif;
   font-size: 9px;
   bottom: 10px;
   top: 5px;
-
-
 }
-.seccionthree_card_beta{
-    padding-top: 130px;
+
+.seccionthree_card_4dias {
+    padding-top: 0px;
   }
-.seccionthree_card_plan50{
-    padding-top: 260px;
+.seccionthree_card_8dias {
+    padding-top: 180px;
+  }
+.seccionthree_card_12dias {
+    padding-top: 360px;
   }
 
-.seccionthree_card_4dias{
-    padding-top: 410px;
-  }
-.seccionthree_card_8dias{
-    padding-top: 540px;
-  }
-.seccionthree_card_12dias{
-    padding-top: 670px;
-  }
+.seccionthree_card_morning {
+  padding-top: 0px;
+}
 
-.seccionthree_card_tardes{
-  padding-top: 130px;
+.seccionthree_card_tardes {
+  padding-top: 240px;
 }
-.seccionthree_card_flexible{
-  padding-top: 350px;
+.seccionthree_card_flexible {
+  padding-top: 360px;
 }
-.seccionthree_card_habitante{
+.seccionthree_card_habitante {
   top: 635px;
 }
 
-.seccionfour{
+.seccionfour {
   width: 100%;
   height: 440px;
   background-color: rgb(247,102,102);
@@ -404,7 +383,7 @@
 
 }
 
-.seccionfour_text{
+.seccionfour_text {
   width: 600px;
   height: 350px;
   background-color: white;
@@ -419,7 +398,7 @@
     text-align: center;
   }
 }
-.seccionfour_img{
+.seccionfour_img {
   margin-left: 50%;
   width: 120px;
   height: 120px;
@@ -427,7 +406,7 @@
   background: url(../img/corazon_uno.svg); 
 
 }
-.seccionfour_img:hover{
+.seccionfour_img:hover {
   background: url(../img/corazon_dos.svg); 
 }
 
@@ -443,7 +422,7 @@ footer{
   display: table-cell;
   padding: 60px;
   font-size: 14px;
-    font-family: "raleway-light", sans-serif;
+  font-family: "raleway-light", sans-serif;
   color: white;
   p{
     margin: 0;
@@ -454,6 +433,7 @@ footer{
   position: absolute;
   top: 140px;
   width: 240px;
+  height: 60px;
   left: 80px; 
   text-decoration: none;
   text-align: center;
@@ -461,6 +441,7 @@ footer{
   padding-bottom: 15px;
   color: white;
   border: 1px solid white;
+  line-height: 30px;
 }
 
 .footer_redes_img {
@@ -475,12 +456,12 @@ footer{
 .footer__text {
   line-height: 45px;
   color: grey;
-    font-size: 14px;
+  font-size: 14px;
 }
 
 .footer__text__bold {
-    font-size: 14px;
-    font-family: "raleway-bold", sans-serif;
+  font-size: 14px;
+  font-family: "raleway-bold", sans-serif;
   color: white;
 
 }
@@ -489,4 +470,58 @@ footer{
   float: right;
   line-height: 45px;
 }
+
+@media only screen and (max-width: 991px) {
+
+  .header {
+    padding: 0;
+    padding-bottom: 60px;
+  }
+
+  .header__text{
+    padding: 45px 0px;
+  }
+
+  .desayuno__img {
+    height: 100%;
+    display: inline-block;
+  }
+
+  .desayuno__text {
+    height: 100%;
+    display: inline-block;
+  }
+
+  .seccionthree_left,
+  .seccionthree_right {
+    height: 640px;
+  }
+
+  .seccionthree_card {
+    padding-left: 40px;
+  }
+  
+  .like {
+    width: 90%;
+    padding: 5%;
+    margin: 10% 5%;
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  .header {
+    padding: 0;
+    padding-top: 45px;
+  }
+
+  .header__text{
+    padding: 0;
+  }
+
+  .header__img {
+    width: 100%;
+    padding: 45px;
+  }
+}
+
 
