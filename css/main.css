@@ -232,7 +232,7 @@
 
 .seccionthree_left,
 .seccionthree_right {
-  height: 1080px;
+  height: 860px;
   background-color: rgb(51,102,204);
   display: block;
 
@@ -243,23 +243,26 @@
 .seccionthree_card {
   display: table;
   position: absolute;
-  top: 140px;
+  top: 180px;
   left: 0;
   padding: 0 80px 0 40px;
 }
 .seccionthree_card_title {
   display: table-cell;
-  width: 100px;
   font-family: "oswald", sans-serif;
   font-size: 12px;
   color: white;
   text-align: center;
   background: rgb(83,206,161);
   vertical-align: middle;
-  padding: 30px;
+  padding: 0px;
   position: relative;
-
 }
+
+.tarifa__title {
+  width: 120px;
+}
+
 .seccionthree_card_text {
   display: table-cell;
   font-family: "raleway-light", sans-serif;
@@ -269,12 +272,7 @@
   margin-right: 50px;
   background: white;
   right: 20px;
-  padding: 10px 25px;
-  
-  p {
-    margin: 0;
-  }
-  
+  padding: 10px 20px 0px 30px;
 }
 
 .rombo {
@@ -283,10 +281,10 @@
   height: 15px;
   -ms-transform: rotate(45deg); /* IE 9 */
   -webkit-transform: rotate(45deg); /* Chrome, Safari, Opera */
-  transform: rotate(45eg);
+  transform: rotate(45deg);
   position: absolute;
   right: -7.5px;
-  bottom: 40%;
+  bottom: calc(50% - 7.5px);
 
 }
 
@@ -296,7 +294,7 @@
   border: 1px solid white;
   width: 200px;
   height: 60px;
-  margin-top: 40px;
+  margin-top: 60px;
   position: absolute;
   font-family: "oswald-bold", sans-serif;
   font-size: 14px;
@@ -319,28 +317,35 @@
   font-size: 30px;
   vertical-align: middle;
   padding: 20px;
-  &:after,
-  &:before {
-    content: '';
-    position: absolute;
-    top: 0;
-    right: 0;
-    width:0;
-    height:0;
-    border-color: rgb(51,102,204) rgb(51,102,204) rgb(29,29,27) rgb(29,29,27);
-    border-style:solid;
-    border-width:10px;
-  }
-  &:before {
-    bottom: 0;
-    left: 0;
-    border-color:rgb(29,29,27) rgb(29,29,27) rgb(51,102,204) rgb(51,102,204);
-  }
+}
 
-  p {
+.tarifas__table__rate__corner_right {
+  position: absolute;
+  width: 0px;
+  height: 0px;
+  border-top: 10px solid rgb(51,102,204);
+  border-bottom: 10px solid transparent;
+  border-left: 10px solid transparent;
+  border-right: 10px solid rgb(51,102,204);
+  top: 0px;
+  right: 0px;
+}
+
+.tarifas__table__rate__corner_left {
+  position: absolute;
+  width: 0px;
+  height: 0px;
+  border-top: 10px solid transparent;
+  border-bottom: 10px solid rgb(51,102,204);
+  border-left: 10px solid rgb(51,102,204);
+  border-right: 10px solid transparent;
+  bottom: 0px;
+  left: 0px;
+}
+
+  .seccionthree_price_table p {
     margin: 0;
   }
-}
 
 .seccionthree_price_text {
   color: white;
@@ -348,16 +353,17 @@
   font-size: 9px;
   bottom: 10px;
   top: 5px;
+  width: 80px;
 }
 
 .seccionthree_card_4dias {
     padding-top: 0px;
   }
 .seccionthree_card_8dias {
-    padding-top: 180px;
+    padding-top: 140px;
   }
 .seccionthree_card_12dias {
-    padding-top: 360px;
+    padding-top: 280px;
   }
 
 .seccionthree_card_morning {
@@ -365,13 +371,13 @@
 }
 
 .seccionthree_card_tardes {
-  padding-top: 240px;
+  padding-top: 140px;
 }
 .seccionthree_card_flexible {
-  padding-top: 360px;
+  padding-top: 460px;
 }
 .seccionthree_card_habitante {
-  top: 635px;
+  padding-top: 320px;
 }
 
 .seccionfour {
@@ -511,7 +517,6 @@ footer{
 @media only screen and (max-width: 767px) {
   .header {
     padding: 0;
-    padding-top: 45px;
   }
 
   .header__text{
@@ -520,8 +525,35 @@ footer{
 
   .header__img {
     width: 100%;
-    padding: 45px;
+    padding: 30px;
+    padding-top: 10px;
+  }
+
+  .colorines {
+    height: 250px;
+  }
+
+  .colorin__texto {
+    padding-bottom: 0;
+    padding-top: 55px;
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+
+  .colorin__texto__title {
+    top: 20px;
+  }
+
+  .colorin__btn {
+    position: absolute;
+    top: 180px;
+    width: 170px;
+    left: calc(50% - 85px); 
+    text-decoration: none;
+    text-align: center;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    color: white;
+    border: 1px solid white;
   }
 }
-
-
