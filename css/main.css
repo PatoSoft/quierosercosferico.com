@@ -89,7 +89,7 @@
   position: absolute;
   top: 240px;
   width: 170px;
-  left: 110px; 
+  left: calc(50% - 100px); 
   text-decoration: none;
   text-align: center;
   padding-top: 15px;
@@ -104,20 +104,23 @@
 
 .desayuno {
 	height: 100%;
-  padding-top: 80px;
-  padding-bottom: 80px;
+  margin-top: 60px;
+  margin-bottom: 60px;
+  display: block;
 }
 
 .desayuno__img {
-  padding-left: 80px;
-  padding-right: 40px;
-  height: 290px;
+  margin-top: 0px;
+  margin-bottom: 0px; 
+  height: 100%;
   display: inline-block;
 }
 
 .desayuno__text {
   padding-left: 40px;
-  padding-right: 80px;
+  padding-right: 0px;
+  padding-top: 40px;
+  padding-bottom: 0px;
   display: inline-block;
 }
 
@@ -216,11 +219,33 @@
 	display: block;
 }
 
-#dropdownMenu1 {
+.dropdown {
 	position: absolute;
 	top: 0;
-	right: 100px;
+  width: 180px;
+  height: 60px;
+	right: 16%;
 	background-color: rgba(29,29,27,0.2);
+  color: white;
+  list-style-type: none;
+  padding: 10px;
+  text-align: center;
+}
+
+.dropdown-menu {
+  width: 180px;
+  height: 60px;
+  text-align: center;
+  position: absolute;
+  top: 0;
+  right: 16%;
+  background-color: rgba(29,29,27,0.2);
+  color: white;
+}
+
+.caret{
+  color: white;
+  margin-left: 80px;
 }
 
 
@@ -232,7 +257,7 @@
 
 .seccionthree_left,
 .seccionthree_right {
-  height: 860px;
+  height: 850px;
   background-color: rgb(51,102,204);
   display: block;
 
@@ -272,7 +297,9 @@
   margin-right: 50px;
   background: white;
   right: 20px;
-  padding: 10px 20px 0px 30px;
+  padding: 15px 20px 5px 30px;
+  white-space: nowrap;
+  line-height: 9px;
 }
 
 .rombo {
@@ -303,8 +330,6 @@
   line-height: 30px;
   z-index: 1;
 }
-
-
 
 /*cartel tarifas*/
 .seccionthree_price_table {
@@ -371,13 +396,13 @@
 }
 
 .seccionthree_card_tardes {
-  padding-top: 140px;
+  padding-top: 180px;
 }
 .seccionthree_card_flexible {
   padding-top: 460px;
 }
 .seccionthree_card_habitante {
-  padding-top: 320px;
+  padding-top: 440px;
 }
 
 .seccionfour {
@@ -548,12 +573,19 @@ footer{
     position: absolute;
     top: 180px;
     width: 170px;
-    left: calc(50% - 85px); 
     text-decoration: none;
     text-align: center;
     padding-top: 15px;
     padding-bottom: 15px;
     color: white;
     border: 1px solid white;
+  }
+
+
+  .seccionthree_left,
+  .seccionthree_right {
+    height: 850px;
+    background-color: rgb(51,102,204);
+    display: block;
   }
 }
