@@ -17,7 +17,7 @@ body { overflow-x: hidden;}
 }
 
 .lighterBlackBg {
-	  background-color: rgba(29,29,27,0.2);
+ background-color: rgba(29,29,27,0.2);
 }
 
 .darkGrayBg {
@@ -59,7 +59,7 @@ body { overflow-x: hidden;}
 
 .colorin {
   position: relative;
-	height: 100%;
+  height: 100%;
 }
 
 .colorin__texto {
@@ -147,8 +147,8 @@ body { overflow-x: hidden;}
 .desayuno__text__body-link:hover,
 .desayuno__text__body-link:active,
 .desayuno__text__body-link:focus, {
-    text-decoration: none;
-    color: rgb(51,102,204);
+  text-decoration: none;
+  color: rgb(51,102,204);
 }
 
 
@@ -191,9 +191,9 @@ body { overflow-x: hidden;}
 
 .heart-btn {
   margin-top: 18px;
-	width: 80px;
-	height: 80px;
-	border-radius: 50%;
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
 }
 
 .heart {
@@ -201,8 +201,8 @@ body { overflow-x: hidden;}
 }
 
 .preFooter {
-		height: 100px;
-		color: white;
+  height: 100px;
+  color: white;
 }
 
 .footer {
@@ -229,7 +229,7 @@ body { overflow-x: hidden;}
   right: 15%;
   width: 225px;
   height: 70px;
-	background-color: rgba(29,29,27,0.2);
+  background-color: rgba(29,29,27,0.2);
   color: white;
   list-style-type: none;
   padding: 10px;
@@ -392,9 +392,9 @@ body { overflow-x: hidden;}
   left: 0px;
 }
 
-  .seccionthree_price_table p {
-    margin: 0;
-  }
+.seccionthree_price_table p {
+  margin: 0;
+}
 
 .seccionthree_price_text {
   color: white;
@@ -406,14 +406,14 @@ body { overflow-x: hidden;}
 }
 
 .seccionthree_card_4dias {
-    padding-top: 0px;
-  }
+  padding-top: 0px;
+}
 .seccionthree_card_8dias {
-    padding-top: 140px;
-  }
+  padding-top: 140px;
+}
 .seccionthree_card_12dias {
-    padding-top: 280px;
-  }
+  padding-top: 280px;
+}
 
 .seccionthree_card_morning {
   padding-top: 0px;
@@ -569,8 +569,8 @@ footer {
   }
 
   .seccionthree_card_8dias {
-      padding-top: 140px;
-    }
+    padding-top: 140px;
+  }
   .seccionthree_card_12dias {
     padding-top: 280px;
   }
@@ -659,8 +659,8 @@ footer {
   }
 
   .seccionthree_card_8dias {
-      padding-top: 140px;
-    }
+    padding-top: 140px;
+  }
   .seccionthree_card_12dias {
     padding-top: 280px;
   }
