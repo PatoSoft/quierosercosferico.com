@@ -1,3 +1,5 @@
+body { overflow-x: hidden;}
+
 .blueBg {
   background-color: rgb(51,102,204);
 }
