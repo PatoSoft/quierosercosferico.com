@@ -218,25 +218,47 @@ body { overflow-x: hidden;}
 }
 
 .caret {
-	display: block;
+  position: absolute;
+  top: 55px;
+  left: 25px;
 }
 
 .dropdown {
 	position: absolute;
 	top: 0;
-  width: 180px;
-  height: 60px;
-	right: 16%;
+  right: 15%;
+  width: 225px;
+  height: 70px;
 	background-color: rgba(29,29,27,0.2);
   color: white;
   list-style-type: none;
   padding: 10px;
   text-align: center;
+  font-size: 12px;
+  line-height: 0.2px;
+}
+
+.dropdown__img {
+  position: absolute;
+  top: 15px;
+  left: 15px;
+}
+
+.dropdown__text {
+  position: absolute;
+  top: 23px;
+  left: 75px;
+}
+
+.dropdown__text__2 {
+  position: absolute;
+  top: 37px;
+  left: 75px;
 }
 
 .dropdown-menu {
-  width: 180px;
-  height: 60px;
+  width: 225px;
+  height: 70px;
   text-align: center;
   position: absolute;
   top: 0;
@@ -444,7 +466,7 @@ body { overflow-x: hidden;}
 }
 
 
-footer{
+footer {
   display: table;
   position: relative;
   width: 100%;
@@ -573,7 +595,7 @@ footer{
 
   .colorin__btn {
     position: absolute;
-    top: 180px;
+    top: 177px;
     width: 170px;
     text-decoration: none;
     text-align: center;
@@ -590,4 +612,95 @@ footer{
     background-color: rgb(51,102,204);
     display: block;
   }
+
+  .desayuno {
+    height: 100%;
+    margin-top: 30px;
+    margin-bottom: 10px;
+    display: block;
+  }
+
+  .desayuno__text {
+    padding: 5px;
+    display: inline-block;
+  }
+
+  .desayuno__text__title {
+    margin-top: 24px;
+    font-family: "raleway-bold", sans-serif;
+    font-size: 33px;
+  }
+
+  .desayuno__text__body {
+    margin-top: 15px;
+    font-family: "raleway-light", sans-serif;
+    font-size: 22px;
+    color: gray;
+  }
+
+  .desayuno__text__body-link {
+    font-family: "raleway-bold", sans-serif;
+    font-size: 22px;
+    text-decoration: none;
+  }
+
+  footer{
+  display: table;
+  position: relative;
+  width: 100%;
+  height: 400;
+  background-color: rgb(60,60,59);
+}
+.footer_one, .footer_two, .footer_three, .footer_four {
+  display: table-cell;
+  padding: 60px;
+  font-size: 14px;
+  font-family: "raleway-light", sans-serif;
+  color: white;
+  p{
+    margin: 0;
+  }
+}
+
+.footer__btn {
+  position: absolute;
+  top: 140px;
+  width: 240px;
+  height: 60px;
+  left: 80px; 
+  text-decoration: none;
+  text-align: center;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  color: white;
+  border: 1px solid white;
+  line-height: 30px;
+}
+
+.footer_redes_img {
+  background-color: rgb(29,29,27);
+  position: relative;
+  padding: 30px;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+
+.footer__text {
+  line-height: 30px;
+  color: grey;
+  font-size: 14px;
+}
+
+.footer__text__bold {
+  font-size: 14px;
+  font-family: "raleway-bold", sans-serif;
+  color: white;
+
+}
+
+.footer__logos {
+  float: right;
+  line-height: 15px;
+}
 }
