@@ -554,8 +554,40 @@ footer {
     height: 640px;
   }
 
+  .seccionthree_right {
+    margin-bottom: 150px;
+  }
+
+
   .seccionthree_card {
-    padding-left: 40px;
+    padding-left: 50%;
+    transform: translate(-24%);
+  }
+
+  .seccionthree_card_4dias {
+    padding-top: 0px;
+  }
+
+  .seccionthree_card_8dias {
+      padding-top: 140px;
+    }
+  .seccionthree_card_12dias {
+    padding-top: 280px;
+  }
+
+  .seccionthree_card_morning {
+    padding-top: 0px;
+  }
+
+  .seccionthree_card_tardes {
+    padding-top: 180px;
+  }
+  .seccionthree_card_flexible {
+    padding-top: 450px;
+    z-index: 10000;
+  }
+  .seccionthree_card_habitante {
+    padding-top: 390px;
   }
   
   .like {
@@ -610,9 +642,42 @@ footer {
 
   .seccionthree_left,
   .seccionthree_right {
-    height: 850px;
-    background-color: rgb(51,102,204);
-    display: block;
+    height: 640px;
+  }
+
+  .seccionthree_right {
+    margin-bottom: 150px;
+  }
+
+  .seccionthree_card {
+    padding-left: 50%;
+    transform: translate(-27%);
+  }
+
+  .seccionthree_card_4dias {
+    padding-top: 0px;
+  }
+
+  .seccionthree_card_8dias {
+      padding-top: 140px;
+    }
+  .seccionthree_card_12dias {
+    padding-top: 280px;
+  }
+
+  .seccionthree_card_morning {
+    padding-top: 0px;
+  }
+
+  .seccionthree_card_tardes {
+    padding-top: 180px;
+  }
+  .seccionthree_card_flexible {
+    padding-top: 450px;
+    z-index: 10000;
+  }
+  .seccionthree_card_habitante {
+    padding-top: 390px;
   }
 
 
