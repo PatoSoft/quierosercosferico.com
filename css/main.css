@@ -35,7 +35,81 @@ p { margin: 0; }
 	background-image: url("/img/pattern.gif");
 }
 
+/* subcriction */
 
+.haeader_subc {
+  display: block;
+  position: absolute;
+  top:-90px;
+  width:252px;
+  height:170px;
+  background-color: #CCCCCC;
+  right: 13.5%;
+  -webkit-border-radius: 05px;
+  -moz-border-radius: 05px;
+  border-radius: 05px;
+  -webkit-transition: all 1s ease;
+  z-index: 999999;
+}
+
+/* animacion subcreiption */
+
+.haeader_subc:hover {
+  top:-2px;
+}
+
+.header_subc_container {
+  position: absolute;
+  width:252px;
+  height:170px;
+  top:99px;
+}
+
+.haeader_subc_buttom {
+  width:170px;
+  color: #FFF;
+  height:50px;
+  position: absolute;
+  left:50%;
+  -webkit-transform: translate(-50%);
+  border: solid 1px #FFF;
+  top:35px;
+  font-family:Oswald-Regular;
+  font-size:14;
+  text-align: center;
+  line-height:50px;
+  border-radius: 3px 3px 3px 3px;
+-moz-border-radius: 3px 3px 3px 3px;
+-webkit-border-radius: 3px 3px 3px 3px;
+
+}
+
+.haeader_subc_tex {
+  position: absolute;
+  font-family: Oswald-Regular;
+  width:140px;
+  font-size:14px;
+  text-align:left;
+  top:2px;
+  left:90px;
+  color: #FFF;
+
+}
+
+.haeader_subc_sobre {
+  position: absolute;
+  top: 8px;
+  left:25px;
+}
+
+.haeader_subc_flecha {
+  position: absolute;
+  left:50%;
+  -webkit-transform:translate(-50%);
+  top: 45px;
+}
+
+/* fin de subcreption */
 
 .header {
 	padding-top: 120px;
