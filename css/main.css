@@ -81,7 +81,11 @@ p { margin: 0; }
   border-radius: 3px 3px 3px 3px;
 -moz-border-radius: 3px 3px 3px 3px;
 -webkit-border-radius: 3px 3px 3px 3px;
+}
 
+.haeader_subc_buttom:hover {
+  color: #CCCCCC;
+  background-color: #fff;
 }
 
 .haeader_subc_tex {
@@ -93,7 +97,6 @@ p { margin: 0; }
   top:2px;
   left:90px;
   color: #FFF;
-
 }
 
 .haeader_subc_sobre {
@@ -123,8 +126,9 @@ p { margin: 0; }
 }
 
 .header__text__subtitle {
-  font-family: "raleway-light", sans-serif;
-  font-size: 20px;
+  font-family: "oswald-bold", sans-serif;
+  font-size: 18px;
+  letter-spacing: 2px;
   text-align: center;
   color: gray;
 }
@@ -149,7 +153,7 @@ p { margin: 0; }
 .colorin__texto__title {
   position: absolute;
   top: 45px;
-  font-family: "oswald-bold", sans-serif;
+  font-family: "Oswald-Regular", sans-serif;
   font-size: 16px;
 }
 
@@ -169,6 +173,8 @@ p { margin: 0; }
   top: 240px;
   width: 170px;
   left: calc(50% - 100px); 
+  font-family: "oswald-bold", sans-serif;
+  letter-spacing: 2px;
   text-decoration: none;
   text-align: center;
   padding-top: 15px;
@@ -179,7 +185,21 @@ p { margin: 0; }
 
 .colorin__btn:hover {
   text-decoration: none;
+  background: #fff;
 }
+
+.colorin__btn__blue:hover {
+  color: rgb(51,102,204);
+}
+
+.colorin__btn__red:hover {
+  color: rgb(247,102,102);
+}
+
+.colorin__btn__green:hover {
+  color: rgb(83,206,161);
+}
+
 
 .desayuno {
 	height: 100%;
@@ -216,16 +236,16 @@ p { margin: 0; }
 }
 
 .desayuno__text__body-link {
-  font-family: "raleway-bold", sans-serif;
+  font-family: "oswald-bold", sans-serif;
   font-size: 24px;
   text-decoration: none;
 }
 
 .desayuno__text__body-link:hover,
 .desayuno__text__body-link:active,
-.desayuno__text__body-link:focus, {
+.desayuno__text__body-link:focus {
   text-decoration: none;
-  color: rgb(51,102,204);
+  color: rgb(247,102,102);
 }
 
 
@@ -263,6 +283,7 @@ p { margin: 0; }
 .like__author {
   margin-top: 18px;
   text-align: right;
+  font-family: "Oswald-Regular", sans-serif;
 }
 
 
@@ -300,7 +321,7 @@ p { margin: 0; }
   left: 25px;
 }
 
-.dropdown {
+/*.dropdown {
 	position: absolute;
 	top: 0;
   right: 15%;
@@ -354,7 +375,7 @@ p { margin: 0; }
   display: block;
   clear: both;
 }
-
+*/
 .tarifas {
   height: 100%;
   width: 100%;
@@ -636,7 +657,6 @@ footer {
     color: white;
     border: 1px solid white;
   }
-
 
   .tarifas__title {
     margin-bottom: 30px;
