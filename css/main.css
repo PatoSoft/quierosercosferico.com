@@ -448,7 +448,6 @@ footer {
   font-size: 14px;
   font-family: "raleway-bold", sans-serif;
   color: white;
-
 }
 
 .footer__logos {
@@ -511,7 +510,6 @@ footer {
     margin: 10% 5%;
   }
 
-
   footer {
     display: table;
     position: relative;
@@ -548,7 +546,6 @@ footer {
     padding-left: 20px;
     padding-right: 20px;
   }
-
 
   .footer__text {
     line-height: 10px;
@@ -626,7 +623,6 @@ footer {
     z-index: 1;
   }
 
-
   .desayuno {
     height: 100%;
     margin-top: 30px;
@@ -679,8 +675,6 @@ footer {
     text-align: right;
   }
 
-
-
   footer {
     display: table;
     position: relative;
@@ -718,7 +712,6 @@ footer {
     padding-left: 20px;
     padding-right: 20px;
   }
-
 
   .footer__text {
     line-height: 10px;
