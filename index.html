@@ -24,17 +24,24 @@
     <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
     <![endif]-->
 
-    <div class="dropdown hidden-xs hidden-sm">
-      <li class="" type="button" id="dropdownMenu1" data-toggle="dropdown" aria-expanded="true">
-        <img class="dropdown__img" src="img/sobre.png">
-        <span class="dropdown__text">Quiero recibir info sobre</span>
-        <span class="dropdown__text__2">los eventos de coSfera</span>
-        <span class="caret"></span>
-      </li>
-      <ul class="dropdown-menu" role="menu" aria-labelledby="dropdownMenu1">
-        <li role="presentation"><a role="menuitem" tabindex="-1" href="#">
-          SUSCRIBIRME</a></li>
-        </ul>
+    <div class="header_subc hidden-xs hidden-sm">
+        <div class="header_subc_btn">
+          SUSCRIBIRME
+        </div>
+        <div class="header_subc_container">
+
+          <div class="header_subc_sobre">
+            <img src="img/sobre.png" alt="" />
+          </div>
+          <div>
+            <p class="header_subc_tex">
+              Quiero recibir info sobre los eventos de coSfera
+            </p>
+          </div>
+          <div class="header_subc_flecha">
+            <img src="img/flecha.png" alt="" />
+          </div>
+        </div>
       </div>
 
       <div class="container">
@@ -44,7 +51,7 @@
             <h3 class="header__text__subtitle">¿Quieres ser cosférico?:)</h3>
           </div>
 
-          <img class="col-md-6 col-md-offset-1 header__img" src="/img/breakfast.gif"></img>
+          <img class="col-md-6 col-md-offset-1 header__img" src="img/breakfast.gif"></img>
         </div>
       </div>
 
@@ -56,21 +63,21 @@
               <span class="colorin__texto__title">MEJOR PROBAR ANTES¿NO?</span>
               <p class="colorin__texto__body">
                 <span class="colorin__texto__body-bold">¿Quieres utilizar coSfera como tu espacio de trabajo?</span> Si tienes dudas de qué tarifa escoger, <span class="colorin__texto__body-bold">escríbenos</span> y te invitamos a que pruebes una semana el espacio antes de decidirte.</p>
-                <p><a class="colorin__btn" href="#" role="button">TARIFAS</a></p>
+                <p><a class="colorin__btn colorin__btn__blue" href="#" role="button">TARIFAS</a></p>
               </div>
             </div>
             <div class="col-md-4  col-sm-12 col-xs-12 redBg colorin">
               <div class="colorin__texto">
                 <span class="colorin__texto__title">TAL VEZ VIENES ACOMPAÑADO...</span>
                 <p class="colorin__texto__body">Si te interesa alquilar nuestras <span class="colorin__texto__body-bold">salas de reuniones</span>, puedes comprobar aquí la disponibilidad y reservar la sala por el tiempo que necesites.</p>
-                <p><a class="colorin__btn" href="#" role="button">RESERVAR SALA</a></p>
+                <p><a class="colorin__btn colorin__btn__red" href="#" role="button">RESERVAR SALA</a></p>
               </div>
             </div>
             <div class="col-md-4  col-sm-12 col-xs-12 greenBg colorin">
               <div class="colorin__texto">
                 <span class="colorin__texto__title">CONECTA CON LA COMUNIDAD COSFÉRICA</span>
                 <p class="colorin__texto__body">Si solamente quieres estar en <span class="colorin__texto__body-bold">contacto con la comunidad</span>, elige la tarifa Conecta y tendrás acceso a la comunidad coSférica.</p>
-                <p><a class="colorin__btn" href="#" role="button">CONECTA</a></p>
+                <p><a class="colorin__btn colorin__btn__green" href="#" role="button">CONECTA</a></p>
               </div>
             </div>
           </div>
@@ -79,7 +86,7 @@
         <!-- DESAYUNO -->
         <div class="container desayuno">
           <div class="row col-md-12">
-            <img class="col-lg-6 col-md-6 col-sm-12 desayuno__img col-xs-12" src="/img/desk.gif"></img>
+            <img class="col-lg-6 col-md-6 col-sm-12 desayuno__img col-xs-12" src="img/desk.gif"></img>
             <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 desayuno__text">
               <h1 class="desayuno__text__title">¿QUIERES PASAR A CONOCERNOS?</h1>
               <p class="desayuno__text__body">Vente cualquier día a eso de las 11AM y casi seguro que nos pillarás desayunando. Si nos avisas antes a <a class="desayuno__text__body-link" href="mailto:hola@cosfera.es?Subject=Hola" target="_top">hola@cosfera.es</a> te preparamos una visita guiada.</p>
@@ -87,298 +94,89 @@
           </div>
         </div>
 
+
         <!-- TARIFAS -->
-        <div class="seccionthree container col-md-12">
-          <div class="tarifas__title">TARIFAS</div>
+        <div class="container tarifas blueBg">
+        <div class="col-md-12">
+          <span class="tarifas__title col-md-2 col-sm-4 col-xs-4 col-lg-2">TARIFAS</span>
+          <img src="img/tarifas__dias.png" class="tarifas__dias col-md-6 col-sm-12 col-xs-12 col-lg-6"></img>
+          <img src="img/tarifas__parciales.png" class="tarifa tarifas__parciales col-md-6 col-sm-12 col-xs-12 col-lg-6"></img>
+          <img src="img/tarifas__flexible.png" class="tarifa tarifas__flexible col-md-6 col-sm-12 col-xs-12 col-lg-6"></img>
+          <img src="img/tarifas__habitante.png" class="tarifa tarifas__habitante col-md-6 col-sm-12 col-xs-12 col-lg-6"></img>
+        </div>
+        </div>
 
-          <div class="seccionthree_left col-md-6 col-lg-6 col-sm-12 col-xs-12">
-            <!--CONECTA-->
-            <div class="col-md-12 seccionthree_card seccionthree_card_4dias">
 
-              <div class="seccionthree_card_title">
-                <span class="tarifa__title col-lg-1 col-md-1 col-sm-1 col-xs-1">4 DÍAS/MES</span>
-                <div class="rombo"></div>
-              </div>    
-
-              <div class="seccionthree_card_text">
-                <p>4 días al mes</p> 
-                <p>horario flexible </p>
-                <p>escritorio flexible</p>
-                <p>30% descuento en salas</p> 
-                <p>contacto con la comunidad</p> 
-                <p>impresora, wi-fi...</p>
-              </div>  
-              
-              <div class="seccionthree_price_table">
-                40€
-                <p class="seccionthree_price_text"> mes + IVA</p>
-                <div class="tarifas__table__rate__corner_left"></div>
-                <div class="tarifas__table__rate__corner_right"></div>
-              </div>
+        <!-- LIKE -->
+        <div class="container-fluid redBg pattern">
+          <div class="col-md-6 col-md-offset-6 like">
+            <h3 class="like__text">Por cierto, un aviso, dicen que coSfera engancha, así que igual tenemos que hacerte sitio
+              para siempre. ¿Cuándo nos vemos?;)</h3>
+              <h4 class="like__author">El equipo de coSfera.</h4>
+              <a><div class="seccionfour_img"></div></a>
             </div>
-
-            <div class="col-md-12 seccionthree_card seccionthree_card_8dias">
-
-              <div class="seccionthree_card_title">
-
-                <span class="tarifa__title col-lg-1 col-md-1 col-sm-1 col-xs-1">8 DÍAS/MES</span>
-                <div class="rombo"></div>
-                
-              </div>    
-
-              <div class="seccionthree_card_text">
-                <p>8 días al mes</p> 
-                <p>horario flexible </p>
-                <p>escritorio flexible</p>
-                <p>30% descuento en salas</p> 
-                <p>contacto con la comunidad</p> 
-                <p>impresora, wi-fi...</p>
-              </div>  
-              
-              <div class="seccionthree_price_table">
-                40€
-                <p class="seccionthree_price_text"> mes + IVA</p>
-                <div class="tarifas__table__rate__corner_left">
-                </div>
-                <div class="tarifas__table__rate__corner_right">
-                </div>
-              </div>
-            </div>
-
-            <div class="seccionthree_card seccionthree_card_12dias">
-
-              <div class="seccionthree_card_title">
-
-                <span class="tarifa__title col-lg-1 col-md-1 col-sm-1 col-xs-1">12 DÍAS/MES</span>
-                <div class="rombo"></div>
-                
-              </div>    
-
-              <div class="seccionthree_card_text">
-                <p>12 días al mes</p> 
-                <p>horario flexible </p>
-                <p>escritorio flexible</p>
-                <p>30% descuento en salas</p> 
-                <p>contacto con la comunidad</p> 
-                <p>impresora, wi-fi...</p>
-              </div>  
-              
-              <div class="seccionthree_price_table">
-                40€
-                <p class="seccionthree_price_text"> mes + IVA</p>
-                <div class="tarifas__table__rate__corner_left">
-                </div>
-                <div class="tarifas__table__rate__corner_right">
-                </div>
-              </div>
-            </div>
-
-            <div class="seccionthree_card seccionthree_card_flexible">
-
-              <div class="seccionthree_card_title">
-
-                <span class="tarifa__title col-lg-1 col-md-1 col-sm-1 col-xs-1">FLEXIBLE</span>
-                <div class="rombo"></div>
-                
-              </div>    
-
-              <div class="seccionthree_card_text">
-                <p>5 días a la semana</p> 
-                <p>horario flexible </p>
-                <p>horario flexible </p>
-                <p>escritorio flexible</p>
-                <p>50% descuento en salas</p> 
-                <p>contacto con la comunidad</p> 
-                <p>impresora, wi-fi...</p>
-              </div>  
-              
-              <div class="seccionthree_price_table">
-                180€
-                <p class="seccionthree_price_text"> mes + IVA</p>
-                <div class="tarifas__table__rate__corner_left">
-                </div>
-                <div class="tarifas__table__rate__corner_right">
-                </div>
-              </div>
-            </div>
-          </div> 
-
-
-          <div class="seccionthree_right col-md-6 col-lg-6 col-sm-12 col-xs-12">
-
-            <div class="seccionthree_card">
-
-              <div class="seccionthree_card_title seccionthree_card_morning">
-
-                <span class="tarifa__title col-lg-1 col-md-1 col-sm-1 col-xs-1">MAÑANAS</span>
-                <div class="rombo"></div>
-                
-              </div>    
-
-              <div class="seccionthree_card_text">
-
-                <p>5 días a la semana</p> 
-                <p>de 9:30 a 15:00 </p>
-                <p>escritorio flexible</p>
-                <p>horario flexible </p>
-                <p>escritorio flexible</p>
-                <p>50% descuento en salas</p> 
-                <p>contacto con la comunidad</p> 
-                <p>impresora, wi-fi...</p>
-              </div>  
-              
-              <div class="seccionthree_price_table">
-                110€
-                <p class="seccionthree_price_text"> mes + IVA</p>
-                <div class="tarifas__table__rate__corner_left">
-                </div>
-                <div class="tarifas__table__rate__corner_right">
-                </div>
-
-                
-              </div>
-
-            </div>
-
-            <div class="seccionthree_card seccionthree_card_tardes">
-
-              <div class="seccionthree_card_title">
-
-                <span class="tarifa__title col-lg-1 col-md-1 col-sm-1 col-xs-1">TARDES
-                  <div class="rombo"></div>
-                  
-                </div>    
-
-                <div class="seccionthree_card_text">
-
-                  
-                  <p>5 días a la semana</p> 
-                  <p>de 14:30 a 20:00 </p>
-                  <p>escritorio flexible</p>
-                  <p>horario flexible </p>
-                  <p>escritorio flexible</p>
-                  <p>50% descuento en salas</p> 
-                  <p>contacto con la comunidad</p> 
-                  <p>impresora, wi-fi...</p>
-
-                </div>  
-                
-                <div class="seccionthree_price_table">
-                  75€
-                  <p class="seccionthree_price_text"> mes + IVA</p>
-                  <div class="tarifas__table__rate__corner_left">
-                  </div>
-                  <div class="tarifas__table__rate__corner_right">
-                  </div>
-                </div>
-              </div>
-              
-              
-
-
-
-              <div class="seccionthree_card seccionthree_card_habitante">
-
-                <div class="seccionthree_card_title">
-
-                  <span class="tarifa__title col-lg-1 col-md-1 col-sm-1 col-xs-1">HABITANTE</span>
-                  <div class="rombo"></div>
-                  
-                </div>    
-
-                <div class="seccionthree_card_text">
-
-                  <p>24h. 7 días a la semana</p> 
-                  <p>escritorio fijo </p>
-                  <p>3h salas de reunión</p>
-                  <p>horario flexible </p>
-                  <p>escritorio flexible</p>
-                  <p>50% descuento en salas</p> 
-                  <p>contacto con la comunidad</p> 
-                  <p>impresora, wi-fi...</p>
-
-
-                </div>  
-                
-                <div class="seccionthree_price_table">
-                  180€
-                  <p class="seccionthree_price_text"> mes + IVA</p>
-                  <div class="tarifas__table__rate__corner_left">
-                  </div>
-                  <div class="tarifas__table__rate__corner_right">
-                  </div>
-                </div>
-              </div>
-
-            </div>
-
           </div>
 
-          <!-- LIKE -->
-          <div class="container-fluid redBg pattern">
-            <div class="col-md-6 col-md-offset-6 like">
-              <h3 class="like__text">Por cierto, un aviso, dicen que coSfera engancha, así que igual tenemos que hacerte sitio
-                para siempre. ¿Cuándo nos vemos?;)</h3>
-                <h4 class="like__author">El equipo de coSfera.</h4>
-                <a><div class="seccionfour_img"></div></a>
-              </div>
+          <footer class="hidden-xs">
+            <div class="footer_one">
+              <p>Suscríbete para estar al tanto de nuestros eventos.</p>
+              &nbsp
+              <a class="footer__btn" href=""><p>SUSCRIBIRME</p></a>
             </div>
-
-            <footer>
-              <div class="footer_one">
-                <p>Suscríbete para estar al tanto de nuestros eventos.</p>
-                &nbsp
-                <div class="footer__btn"><p>SUSCRIBIRME</p></div>
-              </div>
-              <div class="footer_two footer__text__bold">
-                <p>· Tarifas.</p>&nbsp
-                <p>· Salas de reuniones.</p>&nbsp
-                <p>· ¿Quieres venir a conocernos?</p>
-              </div>
-              <div class="footer_three">
-                <p class="footer__text__bold">Email</p>
-                <p>hola@cosfera.com</p>&nbsp
-
-
-                <p class="footer__text__bold">Teléfono</p>
-                957 666 666
-              </div>
-              <div class="footer_four">
-                <p class="footer__text__bold">Abrimos:</p>
-                <p>de L a V de 9:30 a 20:30.</p>&nbsp
-
-                <p class="footer__text__bold">Nos encontramos en: </p>
-                Avda. Cervantes 6, CP. 14008
-                Córdoba, Spain.
-              </div>
-
-            </footer>
-
-            <div class="footer_redes_img">
-              <span class="footer__text">@coSfera Spaces S.L.</span>
-              <div class="footer__logos">
-                <img src="/img/facebook32.png">
-                <img src="/img/twitter32.png">
-                <img src="/img/googleplus32.png">
-              </div>
+            <div class="footer_two footer__text__bold">
+              <p>· Tarifas.</p>&nbsp
+              <p>· Salas de reuniones.</p>&nbsp
+              <p>· ¿Quieres venir a conocernos?</p>
             </div>
-            
-            <!-- /container -->        
-            <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
-            <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.11.2.min.js"><\/script>')</script>
+            <div class="footer_three">
+              <p class="footer__text__bold">Email</p>
+              <p>hola@cosfera.com</p>&nbsp
 
-            <script src="js/vendor/bootstrap.min.js"></script>
 
-            <script src="js/main.js"></script>
+              <p class="footer__text__bold">Teléfono</p>
+              957 666 666
+            </div>
+            <div class="footer_four">
+              <p class="footer__text__bold">Abrimos:</p>
+              <p>de L a V de 9:30 a 20:30.</p>&nbsp
 
-            <!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->
-            <script>
-            (function(b,o,i,l,e,r){b.GoogleAnalyticsObject=l;b[l]||(b[l]=
-              function(){(b[l].q=b[l].q||[]).push(arguments)});b[l].l=+new Date;
-            e=o.createElement(i);r=o.getElementsByTagName(i)[0];
-            e.src='//www.google-analytics.com/analytics.js';
-            r.parentNode.insertBefore(e,r)}(window,document,'script','ga'));
-            ga('create','UA-XXXXX-X','auto');ga('send','pageview');
-            </script>
-          </body>
-          </html>
+              <p class="footer__text__bold">Nos encontramos en: </p>
+              Avda. Cervantes 6, CP. 14008
+              Córdoba, Spain.
+            </div>
+          </footer>
+
+          <footer class="hidden-lg hidden-md hidden-sm">
+            <img class="col-xs-12" src="img/footer_m_1.png"></img>
+            <img class="col-xs-12" src="img/footer_m_2.png"></img>
+            <img class="col-xs-12" src="img/footer_m_3.png"></img>
+          </footer>
+
+          <div class="footer_redes_img">
+            <span class="footer__text">@coSfera Spaces S.L.</span>
+            <div class="footer__logos">
+              <img src="img/facebook32.png">
+              <img src="img/twitter32.png">
+              <img src="img/googleplus32.png">
+            </div>
+          </div>
+
+          <!-- /container -->
+          <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+          <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.11.2.min.js"><\/script>')</script>
+
+          <script src="js/vendor/bootstrap.min.js"></script>
+
+          <script src="js/main.js"></script>
+
+          <!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->
+          <script>
+          (function(b,o,i,l,e,r){b.GoogleAnalyticsObject=l;b[l]||(b[l]=
+            function(){(b[l].q=b[l].q||[]).push(arguments)});b[l].l=+new Date;
+          e=o.createElement(i);r=o.getElementsByTagName(i)[0];
+          e.src='//www.google-analytics.com/analytics.js';
+          r.parentNode.insertBefore(e,r)}(window,document,'script','ga'));
+          ga('create','UA-XXXXX-X','auto');ga('send','pageview');
+          </script>
+        </body>
+        </html>
